@@ -6,7 +6,10 @@
   "scripts": {
        "commit": "pnpm --filter scripts commit",
      "ai-prettier": "pnpm --filter @koisose/ai fmt",
-    "scripts-prettier": "pnpm --filter scripts fmt"  },
+    "scripts-prettier": "pnpm --filter scripts fmt",
+    "crawl-prettier": "pnpm --filter crawl fmt",
+  "mindsdb":"docker run -d -p 47334:47334 -p 47335:47335 mindsdb/mindsdb"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",

@@ -3,4 +3,5 @@
 
 pnpm run ai-prettier
 pnpm run scripts-prettier
+pnpm run crawl-prettier
 
